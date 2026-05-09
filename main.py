@@ -56,4 +56,4 @@ proba_exercice = np.mean(CT > 0) * 100
 print(f"Risk neutral probability to exercise the option at maturity : {proba_exercice:.2f}%")
 
 
-#TODO after exams: 1)define a 'pricer' class to make things cleaner 2) compute the greeks (in progress, to do after exams) 3) compare with the following approach: numerically solve B-S PDE (using Euler formula imo). See what happens in terms of variance reduction and computational cost when the dimension is large. 
+#TODO after exams: 1)define a 'pricer' class to make things cleaner 2) compute the greeks (in progress, to do after exams) 3) compare with the following approach: numerically solve B-S PDE (using Euler formula imo). See what happens in terms of variance reduction and computational cost when the dimension is large. Apply pricer to compute straddle, butterfly and other vanilla derivatives. Also, extend to the case of more complexe  derivatives using implied vol. 
